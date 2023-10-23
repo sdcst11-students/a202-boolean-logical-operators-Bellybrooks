@@ -30,3 +30,11 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+num1=int(input("enter the fist number:"))
+num2=int(input("enter the second number:"))
+num3=int(input("enter the third number:"))
+
+larger_num=max(num1,num2,num3)
+smaller_num=min(num1,num2,num3)
+middle=(num1+num2+num3)-smaller_num-larger_num
+print("the number in order from smallest to largest are:",smaller_num,middle,larger_num)
