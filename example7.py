@@ -29,4 +29,3 @@ if y == 5:
 
 if x ==3 or y==5:
   print("this is the second result")
-  
